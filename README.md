@@ -124,9 +124,9 @@ VIRTUAL PRIVATE SERVER
 
 
 ## Demo
-Demo front end Link : <a href="https://demo.easycryptos.org" target"_blank">Demo</a>
+Demo front end Link : <a href="https://demo.easycryptos.org" target="_blank">Demo</a>
 
-Admin panel Demo Link: <a href="http://demo.easycryptos.org/admin" target"_blank">Demo</a>
+Admin panel Demo Link: <a href="http://demo.easycryptos.org/admin" target="_blank">Demo</a>
 
 Admin
 Username: admin
