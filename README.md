@@ -106,7 +106,8 @@ Of admin, level 3: as it is now every post is sent to Review for admin.
 + Mbstring PHP Extension
 
 ## Installation
-
+We recommend to use the <a href="https://github.com/EasycryptosTeam/CMS-blog/releases/tag/v4.0.2" target="_blank">Latestest version</a>.
+ 
 XAMMP
 + Set a database no phpmyadmin (user and password optional).if user and password not set use root as user and password leave it blank.
 + Download the files we'll use only CMS folder extract completely on \xampp\htdocs.
