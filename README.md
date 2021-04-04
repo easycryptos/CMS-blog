@@ -91,6 +91,8 @@ CMS blog is a multi-purpose blog-magazine script. It has clean, responsive and u
 + Set Add confidence level to authors, to automatically approve publications.
 + Integrate cron jobs at admin panel, to set from GUI the cron job to update site map and RSS feed.
 + Auto convert images from .jpg, .png to webp or other light formats.
++ Improve reactions to post using animated emoji as Facebook.
++ Push and email notifications.
 
 
 ## Requirements
