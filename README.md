@@ -88,11 +88,15 @@ CMS blog is a multi-purpose blog-magazine script. It has clean, responsive and u
 ## TO DO
 
 + Set compatibility with amazon S.E.S ( simple email service) for smtp bulk email.
-+ Set Add confidence level to authors, to automatically approve publications.
-+ Integrate cron jobs at admin panel, to set from GUI the cron job to update site map and RSS feed.
++ Set Add confidence level to authors,diste level: automatically approve post, level 2: ramdomly sent a post under Review and approvemente
+Of admin, level 3: as it is now every post is sent to Review for admin.
++ Integrate cron jobs at admin panel, to be set from GUI, the cron job updates site map and RSS feed.
 + Auto convert images from .jpg, .png to webp or other light formats.
 + Improve reactions to post using animated emoji as Facebook.
-+ Push and email notifications.
++ Push and email notifications with subscription and unsubscription option.
++ Add mail templates for subscribers.
++ Add RSS page on Main template.
++ Add plugin to add more templates.
 
 
 ## Requirements
@@ -104,10 +108,10 @@ CMS blog is a multi-purpose blog-magazine script. It has clean, responsive and u
 ## Installation
 
 XAMMP
-
-+ Download the files we'll use only CMS folder extract completely on \xampp\htdocs
-+ Open https://127.0.0.1 or localhost and navigate till the folder
-+ Follow the steps on the screen
++ Set a database no phpmyadmin (user and password optional).if user and password not set use root as user and password leave it blank.
++ Download the files we'll use only CMS folder extract completely on \xampp\htdocs.
++ Open https://127.0.0.1 or localhost and navigate 'till the folder.
++ Follow the steps on the screen.
 
 VIRTUAL PRIVATE SERVER
 
@@ -120,9 +124,9 @@ VIRTUAL PRIVATE SERVER
 
 
 ## Demo
-Demo Link : <a href="https://demo.easycryptos.org">Demo</a>
+Demo front end Link : <a href="https://demo.easycryptos.org" target"_blank">Demo</a>
 
-Admin Demo Link: <a href="http://demo.easycryptos.org/admin">Demo</a>
+Admin panel Demo Link: <a href="http://demo.easycryptos.org/admin" target"_blank">Demo</a>
 
 Admin
 Username: admin
