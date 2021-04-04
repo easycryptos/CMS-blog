@@ -1,0 +1,305 @@
+/*
+
+Template Color CSS File
+
+Color code: #555555
+
+Author: Codingest
+Template Name: Infinite
+*/
+
+/*a tag*/
+a:hover {
+	color: #555555;
+}
+
+a:focus, a:active {
+	color: #555555;
+}
+
+#infinity-outline {
+	stroke: #555555;
+}
+
+.nav-mobile-header {
+	background-color: #555555 !important;
+}
+
+/*navigation*/
+.navbar-toggle {
+	background-color: #555555 !important;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #555555 !important;
+}
+
+.btn-custom {
+	background-color: #555555;
+	border-color: #555555;
+}
+
+.btn-custom:hover {
+	background-color: #3e3e3e !important;
+	border-color: #3e3e3e !important;
+}
+
+.btn-custom:focus {
+	background-color: #3e3e3e !important;
+	border-color: #3e3e3e !important;
+}
+
+.btn-custom:active {
+	background-color: #3e3e3e !important;
+	border-color: #3e3e3e !important;
+}
+
+.btn-error-back {
+	background-color: #555555 !important;
+	border-color: #555555 !important;
+}
+
+::selection {
+	background: #555555 !important;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #555555 !important;
+	color: #fff;
+}
+
+.text-category {
+	color: #555555;
+}
+
+/*navbar color style*/
+.navbar-inverse .navbar-nav .active a::after {
+	background-color: #555555;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #555555;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	color: #555555 !important;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: #555555;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: #555555;
+}
+
+.home-slider-item .item-info .label-slider-category {
+	background-color: #555555;
+}
+
+.label-post-category {
+	background-color: #555555;
+}
+
+.read-more {
+	color: #555555;
+}
+
+.widget-title .title::after {
+	background-color: #555555;
+}
+
+.ramdom-post-slider .item-info .label-slider-category {
+	background-color: #555555;
+}
+
+.w-tag-list li a:hover {
+	background-color: #555555;
+}
+
+.post-content .post-meta a:hover {
+	color: #555555;
+}
+
+.post-content .post-tags .tag-list li a:hover {
+	border-color: #555555;
+	background-color: #555555;
+}
+
+.related-posts .related-post-title .title::after {
+	background-color: #555555;
+}
+
+.pagination .active a {
+	border: 1px solid #555555 !important;
+	background-color: #555555 !important;
+	color: #fff !important;
+}
+
+.f-random-list li .title a:hover {
+	color: #555555;
+}
+
+.newsletter button {
+	background: #555555;
+}
+
+.label-slider-category {
+	background-color: #555555;
+}
+
+.random-post-slider .owl-prev:hover .random-arrow-prev {
+	color: #555555;
+}
+
+.random-post-slider .owl-next:hover .random-arrow-next {
+	color: #555555;
+}
+
+.post-detail-slider .owl-prev:hover .post-detail-arrow-prev {
+	color: #555555;
+}
+
+.post-detail-slider .owl-next:hover .post-detail-arrow-next {
+	color: #555555;
+}
+
+.leave-reply .form-control:focus {
+	border-color: #555555;
+}
+
+.page-contact .form-control:focus {
+	border-color: #555555;
+}
+
+.form-input:focus {
+	border-color: #555555;
+}
+
+.link-forget:hover {
+	color: #555555;
+}
+
+.filters .active::after {
+	background: #555555;
+}
+
+.filters .btn:focus:after, .filters .btn:hover:after, .filters .btn:active:after {
+	background: #555555;
+}
+
+.gallery-categories ul li a:hover, .gallery-categories ul li a:focus, .gallery-categories ul li a:active {
+	background-color: #555555 !important;
+	border-color: #555555 !important;
+	color: #fff !important;
+}
+
+.newsletter .newsletter-button {
+	background-color: #555555;
+	border: 1px solid #555555;
+}
+
+.newsletter .newsletter-button:hover {
+	background-color: #3e3e3e;
+	border: 1px solid #3e3e3e;
+}
+
+.switcher-box .open-switcher {
+	background-color: #555555;
+}
+
+.nav-footer li a:hover {
+	color: #555555;
+}
+
+.widget-list li .w-meta a:hover {
+	color: #555555;
+}
+
+.reactions .col-reaction:hover .btn-reaction {
+	background-color: #555555;
+}
+
+.reactions .progress-bar-vertical .progress-bar {
+	background-color: #555555;
+}
+
+.reactions .btn-reaction-voted {
+	background-color: #555555;
+}
+
+.poll .result .progress .progress-bar {
+	background-color: #555555;
+}
+
+.profile-buttons ul li a:hover {
+	color: #555555;
+	border-color: #555555;
+}
+
+.comment-section .nav-tabs .active {
+	border-bottom: 2px solid #555555;
+}
+
+.spinner > div {
+	background-color: #555555;
+}
+
+.cookies-warning a {
+	color: #555555 !important;
+}
+
+.post-meta .post-meta-inner a:hover {
+	color: #555555 !important;
+}
+
+.custom-checkbox:hover + label:before {
+	border-color: #555555;
+}
+
+.custom-checkbox:checked + label:before {
+	background: #555555;
+	border-color: #555555;
+}
+
+.custom-checkbox input:checked + .checkbox-icon {
+	background-color: #555555;
+	border: 1px solid #555555;
+}
+
+.post-content .post-text a {
+	color: #555555;
+}
+
+.post-files .file button {
+	color: #555555;
+}
+
+@media (max-width: 768px) {
+
+	.pagination .page-previous a {
+		border: 1px solid #555555 !important;
+		color: #555555 !important;
+		background-color: transparent !important;
+	}
+
+	.pagination .page-next a {
+		border: 1px solid #555555 !important;
+		color: #555555 !important;
+		background-color: transparent !important;
+	}
+
+	.pagination > li > a, .pagination > li > span {
+		background-color: #555555 !important;
+		border: 1px solid #555555 !important;
+		color: #fff !important;
+	}
+}

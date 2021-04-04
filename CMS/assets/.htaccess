@@ -1,0 +1,19 @@
+# Don't list directory contents
+Options -Indexes
+
+# Disable script execution
+<Files ~ "\.(deb|phps|phtml|php)$">
+Order Deny,Allow
+Deny from all
+</Files>
+
+<Files ~ "^.*\.([Pp][Hh][Pp])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+
+<FilesMatch "\.(htpasswd|ini|phps|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ricardofiorani/php-video-url-parser": "^1.0"
+    }
+}

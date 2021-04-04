@@ -1,0 +1,45 @@
+[
+    {
+        "name": "ricardofiorani/php-video-url-parser",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ricardofiorani/php-video-url-parser.git",
+            "reference": "87fa11db0d59201a443f0427c5ee2f928bbb8bf6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ricardofiorani/php-video-url-parser/zipball/87fa11db0d59201a443f0427c5ee2f928bbb8bf6",
+            "reference": "87fa11db0d59201a443f0427c5ee2f928bbb8bf6",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "fabpot/php-cs-fixer": ">= 1.0",
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2018-09-19T21:45:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RicardoFiorani\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ricardo Fiorani",
+                "email": "ricardo.fiorani@gmail.com"
+            }
+        ],
+        "description": "A Simple and efficient PHP Video URL Parser that gives you thumbnails and embed codes for various services as Youtube, Vimeo, DailyMotion and Facebook"
+    }
+]

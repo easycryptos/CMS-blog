@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Documentation - CMS - Blog & Magazine Script</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/prism/prism.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body data-spy="scroll" data-target="#mainScrollspy">
+<div class="page-wrapper toggled light-theme">
+    <div class="container-fluid">
+        <div class="row">
+            <header class="navbar navbar-expand navbar-dark bd-navbar">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="main-title"><strong>CMS</strong> Documentation</h1>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </header>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="sidebar-wrapper">
+                <div class="sidebar-content">
+                    <!-- sidebar-menu  -->
+                    <div class="sidebar-item sidebar-menu">
+                        <div id="mainScrollspy">
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link active" href="#introduction">Introduction</a>
+                                <a class="nav-link" href="#files">Files</a>
+                                <a class="nav-link" href="#installation">Installation</a>
+                                <a class="nav-link" href="#file_upload">File Upload Settings</a>
+                                <a class="nav-link" href="#quick_start">Quick Start</a>
+                                <a class="nav-link" href="#admin">Admin Panel</a>
+                                <a class="nav-link" href="#themes">Themes</a>
+                                <a class="nav-link" href="#navigation">Navigation</a>
+                                <a class="nav-link" href="#pages">Pages</a>
+                                <a class="nav-link" href="#posts">Posts</a>
+                                <a class="nav-link" href="#drafts">Drafts</a>
+                                <a class="nav-link" href="#rss_feeds">RSS Feeds</a>
+                                <a class="nav-link" href="#categories">Categories</a>
+                                <a class="nav-link" href="#polls">Polls</a>
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                                <a class="nav-link" href="#comments">Comments</a>
+                                <a class="nav-link" href="#contact">Contact Messages</a>
+                                <a class="nav-link" href="#newsletter">Newsletter</a>
+                                <a class="nav-link" href="#ads">Ad Spaces</a>
+                                <a class="nav-link" href="#users">Users</a>
+                                <a class="nav-link" href="#cache">Cache System</a>
+                                <a class="nav-link" href="#seo">Seo Tools</a>
+                                <a class="nav-link" href="#cron_job">Cron Job</a>
+                                <a class="nav-link" href="#social_login">Social Login Settings</a>
+                                <a class="nav-link" href="#email_settings">Email Settings</a>
+                                <a class="nav-link" href="#language_settings">Language Settings</a>
+                                <a class="nav-link" href="#font_settings">Font Settings</a>
+                                <a class="nav-link" href="#settings">Settings</a>
+                                <a class="nav-link" href="#author">Author Panel</a>
+                                <a class="nav-link" href="#password_reset">Password Reset</a>
+                                <a class="nav-link" href="#update">Update Guide</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- sidebar-menu  -->
+                </div>
+            </nav>
+            <!-- page-content  -->
+            <main class="page-content">
+                <div class="container-fluid">
+                    <div class="row row-main">
+                        <div id="introduction" class="item-content">
+                            <div class="content-inner">
+                                <h3>CMS blog - Blog & Magazine Script v4.0.2 by Codingest</h3>
+                                <p class="prepend-top append-0">Thank you for purchasing our script. If you have any questions that are beyond the scope of this help file, please feel free to contact us via
+                                    our <strong><a href="https://codingest.net/" target="_blank">support system</a></strong>. This is an online support system for our script. You can create your free
+                                    account and use the system. Thanks so much!</p>
+
+                                <h3 style="margin-top: 90px !important;">Introduction</h3>
+                                <p><strong>CMS blog</strong> is a multi-purpose blog-magazine script. It has clean, responsive and user-friendly design. You can manage your posts, custom pages, categories,
+                                    user comments, advanced settings and contact messages with its powerful Admin panel. Also it has a useful ad management system. You can manage your ad spaces with this
+                                    system. It is secured, seo optimized, fast and easy to use.</p>
+                                The technologies used:
+                                <ul>
+                                    <li>
+                                        Codeigniter
+                                    </li>
+                                    <li>
+                                        HTML 5
+                                    </li>
+                                    <li>
+                                        CSS 3 (Bootstrap)
+                                    </li>
+                                    <li>
+                                        JQUERY
+                                    </li>
+                                    <li>
+                                        AJAX
+                                    </li>
+                                </ul>
+                                <strong>Key Features:</strong>
+                                <ul>
+                                    <li>Clean and Responsive Design</li>
+                                    <li>Built Using Bootstrap</li>
+                                    <li>Totally Secure System</li>
+                                    <li>Multilingual System (New Languages Can be Added Easily)</li>
+                                    <li>RTL Support</li>
+                                    <li>SEO Optimized & SEO-Friendly URL</li>
+                                    <li>Multi-Author System</li>
+                                    <li>Theme Options (With Dark Mode)</li>
+                                    <li>10 Layout Colors</li>
+                                    <li>Cache System</li>
+                                    <li>Editable & Sortable Navigation</li>
+                                    <li>Responsive & Sortable Slider (Enable & Disable Option)</li>
+                                    <li>Responsive Ad Spaces for Any Kind of Ad Codes (Including Adsense)</li>
+                                    <li>Adding Unlimited Fully Editable Pages</li>
+                                    <li>Page Descripton, Show Page, Show Page Title, Show Breadcrumb, Show Right Column Options for Pages</li>
+                                    <li>Contact Page</li>
+                                    <li>Search in Site</li>
+                                    <li>Add, Delete, Update Unlimited Categories</li>
+                                    <li>Add, Delete, Update Unlimited Posts</li>
+                                    <li>Video Post Option</li>
+                                    <li>Gif Support</li>
+                                    <li>Emoji Reactions</li>
+                                    <li>Save as Draft Option for Posts</li>
+                                    <li>Reading List Page (Add & Remove from List)</li>
+                                    <li>Lazy Image Loading</li>
+                                    <li>Add Multiple Images to a Post</li>
+                                    <li>Add & Remove Posts from Slider</li>
+                                    <li>Advanced Post Options</li>
+                                    <li>Downloadable Files for Posts</li>
+                                    <li>Dynamic Tag System</li>
+                                    <li>Ajax Comment System</li>
+                                    <li>Pageview Counts (Enable & Disable Option)</li>
+                                    <li>Rich Text Editor (Image and Video Can Be Added)</li>
+                                    <li>Voting Poll (Add, Delete Unlimited Poll)</li>
+                                    <li>Gallery Page (Enable & Disable Option)</li>
+                                    <li>Gallery Albums</li>
+                                    <li>Gallery Categories</li>
+                                    <li>Add, Delete Unlimited Photos</li>
+                                    <li>Newsletter (Send Html Email to All Registered Emails)</li>
+                                    <li>Different Email Libraries (Swift Mailer, PHP Mailer, CodeIgniter Mail)</li>
+                                    <li>Social Login (Facebook & Google)</li>
+                                    <li>Social Sharing</li>
+                                    <li>Social Media Links</li>
+                                    <li>Widget: Popular Posts</li>
+                                    <li>Widget: Our Picks</li>
+                                    <li>Widget: Categories</li>
+                                    <li>Widget: Random Posts Slider</li>
+                                    <li>Widget: Tags</li>
+                                    <li>Widget: Related Posts</li>
+                                    <li>Manage Registered Emails</li>
+                                    <li>Manage Comments</li>
+                                    <li>Enable & Disable Comment System</li>
+                                    <li>Comment Approval System</li>
+                                    <li>Enable & Disable Comment Approval System</li>
+                                    <li>Manage Contact Messages</li>
+                                    <li>Sitemap.xml Generator</li>
+                                    <li>RSS Aggregator System (Auto Update with Cron Job) (Doesn’t support full-text RSS)</li>
+                                    <li>RSS (With different channels)</li>
+                                    <li>Maintenance Mode</li>
+                                    <li>Font Settings (New Google Fonts Can be Added Easily)</li>
+                                    <li>Membership System with 3 Roles (Admin, Author, User)</li>
+                                    <li>Enable & Disable Membership System</li>
+                                    <li>Manage Registered Users</li>
+                                    <li>User Profile Page</li>
+                                    <li>Secure Authentication</li>
+                                    <li>Follow & Unfollow Users</li>
+                                    <li>Google Analytics</li>
+                                    <li>Cookie Notice for GDPR</li>
+                                    <li>Password Reset</li>
+                                    <li>Advanced Settings Options</li>
+                                    <li>Change Logo, Favicon, Site Title, Site Description, etc. from Admin Panel</li>
+                                    <li>Easy Installation Using Installation Wizard</li>
+                                    <li>Detailed Documentation</li>
+                                    <li>Runs on PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4</li>
+                                </ul>
+                                <br/>
+
+                                <strong>Security:</strong>
+                                <br/>
+                                CMS blog is a secure system. There are various mechanisms to secure application. These mechanisms are:
+                                <ul>
+                                    <li>Cross-Site Request Forgery (CSRF) Prevention</li>
+                                    <li>Cross-Site Scripting (XSS) Prevention</li>
+                                    <li>Password Hashing</li>
+                                    <li>Avoiding SQL Injection</li>
+                                </ul>
+
+                                <br/>
+                                <strong>Requirements:</strong>
+                                <br/>
+                                There are some requirements for CMS blog to work on your server. These requirements are:
+                                <ul>
+                                    <li>PHP &gt;= 5.6+</li>
+                                    <li>cURL PHP Extension</li>
+                                    <li>Mbstring PHP Extension</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="files" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Files</h3>
+                                <strong>a) CSS Files</strong><br/>
+                                <ul>
+                                    <li>
+                                        AdminLTE.min.css and _all-skins.min.css: Contains general css codes for admin panel.
+                                    </li>
+                                    <li>
+                                        bootstrap-toggle.min.css: Contains bootstrap toggle css codes.
+                                    </li>
+                                    <li>
+                                        custom.css: Contains css fixes for admin panel.
+                                    </li>
+                                    <li>
+                                        style.css: Contains main css codes.
+                                    </li>
+                                    <li>
+                                        responsive.css: Contains reponsive css fixes.
+                                    </li>
+
+                                    <li>
+                                        Style.css file is separated into sections using:<br/><br/>
+
+                                        /* ============ 1. General layout CSS styles ============ */<br/>
+
+                                        code<br/>
+
+                                        /* ============ 2. Header ============ */<br/>
+
+                                        code<br/>
+
+                                        /* ============ 3. Slider ============ */<br/>
+
+                                        code<br/>
+
+                                        etc, etc.<br/>
+
+                                    </li>
+                                </ul>
+
+
+                                <strong>b) JavaScript Files</strong><br/>
+                                <ul>
+                                    <li>jquery-1.12.4.min.js: Javascript library</li>
+                                    <li>
+                                        app.min.js: This file contains general dashboard script codes.
+                                    </li>
+                                    <li>
+                                        bootstrap-toggle.min.js: Contains bootstrap toggle javascript codes.
+                                    </li>
+                                    <li>custom.js: Contains custom script codes. There are custom functions and ajax post functions</li>
+
+                                    <li>theme.js: Contains javascript functions for front-end.
+                                        <br/><br/>
+                                        Js files are separated into sections using:<br/>
+
+                                        //ajax post delete image<br/>
+                                        code<br/>
+
+                                        //Agreement datatable function<br/>
+
+                                        code<br/>
+
+                                        etc, etc.<br/>
+                                    </li>
+                                </ul>
+
+                                <strong>c) Plugins</strong>
+
+                                Plugins used in application: <br/>
+                                <ul>
+                                    <li>
+                                        <strong>jQuery</strong><br/>
+                                        jQuery is a Javascript library that greatly reduces the amount of code that you must write.
+                                    </li>
+                                    <li>
+                                        <strong>jQueryUI</strong><br/>
+                                        jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.
+
+                                    </li>
+                                    <li>
+                                        <strong>TinyMCE</strong><br/>
+                                        TinyMCE is a browser-based WYSIWYG content editor.
+                                    </li>
+                                    <li>
+                                        <strong>Datatables</strong><br/>
+                                        DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, and will add<br/>
+                                        advanced interaction controls to any HTML table.
+                                    </li>
+                                    <li>
+                                        <strong>ICheck</strong><br/>
+                                        Highly customizable checkboxes and radio buttons.
+                                    </li>
+                                    <li>
+                                        <strong>Pace</strong><br/>
+                                        Automatic page load progress bar.
+                                    </li>
+                                    <li>
+                                        <strong>Tagsinput</strong><br/>
+                                        jQuery plugin providing a Twitter Bootstrap user interface for managing tags
+                                    </li>
+                                    <li>
+                                        <strong>Gallery</strong><br/>
+                                        Jquery Gallery plugin
+                                    </li>
+                                    <li>
+                                        <strong>Owl-Carousel</strong><br/>
+                                        Responsive jquery slider plugin
+                                    </li>
+                                    <li>
+                                        <strong>Jquery-confirm</strong><br/>
+                                        Jquery-confirm plugin
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="installation" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Installation</h3>
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">Please check your PHP version before start installation. Your PHP version should be <strong>5.6, 7.0, 7.1, 7.2 or 7.3.</strong></p>
+                                </div>
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">cURL PHP extension should be enabled in your server. If you get <strong>"cURL is not available on your server! Please enable cURL to continue the installation"</strong>
+                                        error during installation, you need to enable cURL on your server.
+                                        You can enable it by adding <strong>extension=php_curl.dll</strong> line to your php.ini file. If you cannot access your php.ini file, please contact your host service.</p>
+                                </div>
+
+                                <h5><strong>You can install the script by watching this video.</strong></h5><br>
+                                <iframe width="800" height="542" src="https://www.youtube.com/embed/HO56846mW0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <br><br>
+                                <h5><strong>Or you can follow these steps to install the script:</strong></h5><br>
+
+                                <strong>1. Create a new Database with user that has all permissions.</strong>
+                                <ul class="m-t-15">
+                                    <li>Go to cPanel and Click MySQL® Databases<br/><br/>
+                                        <img src="assets/images/db_1.jpg" alt="">
+                                    </li>
+                                    <br/><br/>
+                                    <li>Create New Database<br/><br/>
+                                        <img src="assets/images/db_2.jpg" alt="">
+                                    </li>
+                                    <br/><br/>
+                                    <li>Add New User<br/><br/>
+                                        <img src="assets/images/db_3.jpg" alt="">
+                                    </li>
+                                    <br/><br/>
+                                    <li>Add User To Database<br/><br/>
+                                        <img src="assets/images/db_4.jpg" alt="">
+                                    </li>
+                                    <br/><br/>
+                                    <li>Set User Permissions<br/><br/>
+                                        <img src="assets/images/db_5.jpg" alt="">
+                                    </li>
+                                </ul>
+                                <br>
+                                <strong> 2. Upload script files to your hosting (FTP).</strong><br/><br>
+                                <ol>
+                                    <li>
+                                        Open your cPanel and go to File Manager section.<br><br>
+                                        <img src="assets/images/update/1.jpg" alt=""><br/><br/>
+                                    </li>
+                                    <li>
+                                        Go to main directory of your site. Most of the time this folder will be <strong>public_html</strong>.<br><br>
+                                        <img src="assets/images/ftp_1.png" alt=""><br/><br/>
+                                    </li>
+                                    <li>
+                                        Open this folder and upload <strong>CMS blog-blog-magazine-script.zip</strong> file to this directory.<br><br>
+                                        <img src="assets/images/update/5.jpg" alt=""><br/><br/>
+                                    </li>
+                                    <li>
+                                        Rigth click the .zip file and select <strong>Extract</strong> option.<br><br>
+                                        <img src="assets/images/ftp_2.png" alt=""><br/><br/>
+                                    </li>
+                                    <li>
+                                        Move all files that in the "CMS blog-v.." folder to main directory.<br><br>
+                                        <img src="assets/images/ftp_3.jpg" alt=""><br/><br/>
+                                    </li>
+                                    <li>
+                                        Delete unnecessary files/folders: "documentation", "CMS blog-v.." and "CMS blog-blog-magazine-script.zip".<br><br>
+                                        <img src="assets/images/ftp_4.jpg" alt=""><br/><br/>
+                                        <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                            <p class="m-0">
+                                                Make sure that the .htaccess file exists in this directory. If you cannot see it, click <strong>Settings</strong> button at the top right corner and select <strong>Show Hidden Files (dotfiles)</strong> option.
+                                                Also, cPanel can automatically change the content of this file. Please open this file and make sure the content of this file is like .htaccess below.
+                                            </p>
+                                        </div>
+                                        <strong>.htaccess:</strong>
+                                        <pre><code class="language-apacheconf">RewriteEngine On<br>
+RewriteCond %{REQUEST_FILENAME} !-f<br>
+RewriteCond %{REQUEST_FILENAME} !-d<br>
+RewriteRule ^(.*)$ index.php?/$1 [L]</code></pre>
+                                    </li>
+                                </ol>
+                                <strong> 3. You will see this page after uploading all files to your FTP. Click "Install" to proceed.
+                                    If you cannot see this page, you can access install page by entering this link to your browser address bar: http://yourdomain.com/install </strong><br/><br/>
+                                <img src="assets/images/ins1.png" alt="" style="border: 1px solid #eee;">
+                                <br/><br/>
+
+                                <strong>4. Click "Go to Support System" button and generate your license code. Enter your license code and then click Next.</strong><br><br>
+                                <img src="assets/images/ins2.jpg" alt=""><br/><br>
+
+                                <strong>5. Check system requirements. If one of these extensions is not enabled, you must enable it from your server settings. If all requirements are provided, click Next.</strong><br/><br>
+                                <img src="assets/images/ins3.jpg" alt="">
+                                <br/><br>
+
+                                <strong>6. Check folder permissions. If all folders are writable, click Next.</strong><br/><br>
+                                <img src="assets/images/ins4.jpg" alt=""><br/><br>
+
+                                <strong>7. Enter your database credentials. Click next.</strong><br/><br>
+                                <img src="assets/images/ins5.jpg" alt=""><br/><br>
+                                <div class="alert alert-warning d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">If you want to change your database credentials later, you can edit <strong>application/config/database.php</strong></p>
+                                </div>
+                                <strong>8. Enter your admin credentials and select your Timezone. Click finish.</strong><br/><br>
+                                <img src="assets/images/ins6.jpg" alt="">
+                                <br/><br>
+
+                                <strong>8. Delete the install folder.</strong>
+                                <br/><br>
+
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        After installation, if you see "404 Not Found" error or if you can not login to your site, please check your main directory.
+                                        There should be a .htaccess file. If you don't have this file, none of your links will work. You can find this file in the main directory of script files.
+                                        Depending on the operating system you are using, such setting files may be hidden in your computer. In this case, you may not see this file.
+                                        If you can't see this file, you can create a new file named <strong>.htaccess</strong> in the main directory of your site and you can paste the following codes to your .htaccess file.
+                                    </p>
+                                </div>
+                                <strong>.htaccess:</strong>
+                                <pre><code class="language-apacheconf">RewriteEngine On<br>
+RewriteCond %{REQUEST_FILENAME} !-f<br>
+RewriteCond %{REQUEST_FILENAME} !-d<br>
+RewriteRule ^(.*)$ index.php?/$1 [L]</code></pre>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="file_upload" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">File Upload Settings</h3>
+                                If you want to upload large files, you may need to make some settings on your server. Also, CMS blog performs image optimization while uploading images. This optimization uses memory.<br/><br/>
+
+                                If you try to upload large files without doing some settings on your server, you can get an error.<br/><br/>
+
+                                If you can't upload large files, you need to set these PHP values. These are recommended minimum values.<br><br>
+
+                                <strong>
+                                    php_value upload_max_filesize 32M<br>
+                                    php_value post_max_size 32M<br>
+                                    php_value memory_limit 256M<br>
+                                </strong><br/><br/>
+
+                                To set these values follow the steps:<br><br>
+
+                                <ol>
+                                    <li>Go to your cPanel and click "Select PHP Version"<br><br>
+                                        <img src="assets/images/image1.jpg" alt=""><br/><br/>
+                                    </li>
+                                    <li>Then click "Switch to PHP Options"<br><br>
+                                        <img src="assets/images/image2.jpg" alt=""><br/><br/>
+                                    </li>
+                                    <li>Then set the values "upload_max_filesize", "post_max_size" and "memory_limit" as you see in the picture.<br><br>
+                                        <img src="assets/images/image3.jpg" alt=""><br/><br/>
+                                    </li>
+                                </ol>
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        If you can not reach these settings, please contact your host administrator and ask them to make these settings.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="quick_start" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Quick Start</h3>
+                                <strong>&#x2713;&nbsp;&nbsp;Changing Admin Password:</strong> After login the system you will see your username in the top menu. Go over your username and a dropdown will open then click
+                                Settings / Change Password option. And fill in the form to change your password.<br><br>
+
+                                <strong>&#x2713;&nbsp;&nbsp;Adding Category: </strong> Go to "Categories" section from navigation and click Categories. Then fill in the Add Category form and click Add Category button.
+                                To add subcategory, Go to "Categories" section and click Subcategories. Then fill in the Add Subcategory form and click Add Subcategory button.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Adding Post: </strong> To add a post you should first add a category. After adding some categories go to "Posts" section from navigation and click Add Post.
+                                Then fill in the form and click Add Post button.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Adding Page: </strong> Go to "Pages" section from navigation and click Add Page. Then fill in the form and click Add Page button. If you want to manage
+                                existing pages: Go to "Pages" section from navigation and click Pages. Then you will see all pages in your site. You can make any change by selecting edit option for each page.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Adding Images to Gallery: </strong> To add images to gallery, first you should add some categories for images. Go to "Gallery" section from navigation and click Categories. Then fill in the Add Category form and click Add Category button.
+                                After addings some categories, go to "Gallery" section and click Images. Then fill in the Add Image form and click Add Image button.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Sending Email to Registered Emails (Newsletter): </strong> To use newsletter feature you should first make your email settings.
+                                Go to "Settings" section from navigation and click Email Settings tab. Enter your mail server informations and click Save Changes button. Then go to "Newsletter" section from navigation and fill in the
+                                Send Email to Registered Emails form and click the Send Mail button.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Running Ads: </strong> If you want to add your ad codes to your website, this is very easy in the CMS blog.
+                                Go to "Ad Spaces" section and add your ad codes then click Save Changes button.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Managing Users: </strong> Go to "Users" section from navigation. You will see all users registered. You can select Change User Role, Delete User and Ban User options for each users.
+                                <br><br>
+                                <strong>&#x2713;&nbsp;&nbsp;Adding Author: </strong> CMS blog is a multi-author system, so authors can add posts. To add an author to the system first user should register from register page.
+                                Then Admin should go to "Users" section from navigation and should set user role as Author. After this process user will became an Author and he can reach his own Panel to manage his posts.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="admin" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Admin Panel</h3>
+                                You can reach Admin panel from this link: yourdomain.com/admin <br><br>
+                                There are some counters in the Admin panel's home page. These counters:
+                                <ol>
+                                    <li>Posts: Shows total post count</li>
+                                    <li>Pending Posts: Shows pending post count</li>
+                                    <li>Drafts: Shows draft count</li>
+                                    <li>Users: Shows registered user count</li>
+                                </ol>
+
+                                In addition to these, there are also sections where the last comments, last contact messages and last users are shown.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="themes" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Themes</h3>
+                                You can select a layout option from this section.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="navigation" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Navigation</h3>
+                                <strong>Add Menu Link:</strong> You can add a new link to the navigation from this form. Also you can add a dropdown link to the navigation by selecting "Parent Link".<br><br>
+
+                                <strong>Navigation: </strong> You can see links on your navigation on this table and you can update or delete a link.<br><br>
+
+                                <strong>Menu Limit: </strong> You can set menu item count that will be appear on your navigation from this form.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="pages" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Pages</h3>
+                                You can add, update or delete your pages from this section.<br><br>
+
+                                <strong>Add Page: </strong> Go to "Pages" section from navigation and click Add Page. Then fill in the form.
+                                <ul>
+                                    <li><b>Title: </b> Your page title.</li>
+                                    <li><b>Slug: </b> Slug for SEO friendly url. If your page title consists of special characters your title slug will not be generated. In this case you should add custom slug.</li>
+                                    <li><b>Description: </b> You can add Description (Meta Tag) for page.</li>
+                                    <li><b>Keywords: </b> You can add Keywords (Meta Tag) for page.</li>
+                                    <li><b>Parent Link: </b> You can select parent link.</li>
+                                    <li><b>Menu Order: </b> Your pages will order according to this value.</li>
+                                    <li><b>Location: </b> You can select your page link location.</li>
+                                    <li><b>Visibility: </b> You can hide or show your page.</li>
+                                    <li><b>Show Only to Registered Users: </b> If you want to show page only to registered users you should select yes.</li>
+                                    <li><b>Show Title: </b> You can hide or show your page title.</li>
+                                    <li><b>Show Breadcrumb: </b> You can hide or show your page breadcrumb.</li>
+                                    <li><b>Show Right Column: </b> You can hide or show sidebar on your page.</li>
+                                    <li><b>Content: </b> Your page content. You can add image and video with text editor.</li>
+                                </ul>
+
+                                <strong>Update Page: </strong> Go to "Pages" section from navigation and click Pages. You will see page list and you can make changes
+                                on pages by selecting "Edit" option for each pages.<br><br>
+
+                                <strong>Delete Page: </strong> On the same list you can delete pages by selecting "Delete" option for each pages.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="posts" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Posts</h3>
+                                You can add, update or delete posts from this section.<br/><br>
+                                <strong>Add Post: </strong> Go to "Posts" section from navigation and click Add Post. Then fill in the form.
+                                <ul>
+                                    <li><b>Title: </b> Your post title.</li>
+                                    <li><b>Slug: </b> Slug for SEO friendly url. If your page title consists of special characters your title slug will not be generated. In this case you should add custom slug.</li>
+                                    <li><b>Keywords: </b> You can add Keywords (Meta Tag) for post.</li>
+                                    <li><b>Summary: </b> You can add short description about post.</li>
+                                    <li><b>Category: </b> You should select a category for post.</li>
+                                    <li><b>Subcategory: </b> You can select a subcategory for post.</li>
+                                    <li><b>Visibility: </b> You can hide or show your post.</li>
+                                    <li><b>Add to Slider: </b> You can add post to the index slider.</li>
+                                    <li><b>Add to Our Picks: </b> You can add post to the our picks.</li>
+                                    <li><b>Show Only to Registered Users: </b> If you want to show post only to the registered users you can select this option.</li>
+                                    <li><b>Tags: </b> Tags for post.</li>
+                                    <li><b>Optional Url: </b> If you enter a url here there will be a button in your post page to access this url.</li>
+                                    <li><b>Main Image: </b> Image for post.</li>
+                                    <li><b>Additional Images: </b> If you want to add more than one image to the posts you can select multiple images from here.</li>
+                                    <li><b>Content: </b> Post content. You can add image and video with text editor.</li>
+                                </ul>
+
+                                <strong>Update Post: </strong> Go to "Posts" section from navigation and click Posts. You will see post list and you can make changes
+                                on posts by selecting "Edit" option for each posts.<br><br>
+
+                                <strong>Delete Post: </strong> On the same list you can delete posts by selecting "Delete" option for each posts.
+                                <br><br>
+                                <strong>Additional Images: </strong> If you want to add more than one main image to your post, you can select more images from this section. If you select an image from here, the slider will be active (There will be a slider in post details page).
+                                <br><br>
+                                <strong>Files: </strong> If you want to add downloadable files to your posts (PDF, ZIP, DOC .. etc), you can add them from this section.
+                                <br><br>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="drafts" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Drafts</h3>
+                                Posts can be saved as a draft instead of publishing directly. You can see your drafts in this section.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="rss_feeds" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">RSS Feeds</h3>
+                                <p>You can add, update or delete RSS Feeds from this section.</p>
+                                <h4 class="subtitle">Import RSS Feed</h4>
+                                <p>Go to "RSS Feeds" section from navigation and click Import RSS Feed. Then fill out the form.</p>
+                                <ul>
+                                    <li><b>Feed Name: </b> Feed name.</li>
+                                    <li><b>Feed URL: </b> You should enter a valid RSS Feed URL to this field.</li>
+                                    <li><b>Number of Posts to Import: </b> You can define posts count that you want to add your site.</li>
+                                    <li><b>Category: </b> Posts will be added to category that you selected.</li>
+                                    <li><b>Subcategory: </b> Posts will be added to subcategory that you selected.</li>
+                                    <li><b>Images: </b> If you want to download the images to your server, you need to select "Download Images to My Server" option. If you don't want to download the images, you need to select "Show Images from Original Source" option</li>
+                                    <li><b>Generate Keywords from Title: </b> When this option is selected, the title will be divided into words for meta:keywords tag.</li>
+                                    <li><b>Auto Update: </b> You can select this option if you want to update with Cron Job.</li>
+                                    <li><b>Show Read More Button: </b> You can hide or show Read More button with this option.</li>
+                                    <li><b>Add Posts as Draft: </b> You can add your posts as draft by selecting this option.</li>
+                                    <li><b>Read More Button Text: </b> You can add a text for the Read More button.</li>
+                                </ul>
+
+                                <h4 class="subtitle">Update Feed</h4>
+                                <p>Go to "RSS Feeds" section from navigation and click RSS Feeds. You will see RSS feeds list and you can make changes on RSS feed by selecting "Edit" option for each RSS feeds.</p>
+                                <h4 class="subtitle">Delete Feed</h4>
+                                <p>On the same list you can delete RSS feeds by selecting "Delete" option for each RSS feeds.</p>
+                                <h4 class="subtitle">Cron Job</h4>
+                                <p> You need to create a cron job function to automatically add posts from your RSS feed. Read this section to see how you can add a cron job function in your server: <a href="#cron_job">Cron Job</a></p>
+                                <p>This is the URL that you need to run with your cron job function: <strong>http://domain.com/cron/update-feeds</strong><br>
+                                    <small>**Do not forget to change "domain.com" with your domain name.</small>
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="categories" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Categories</h3>
+                                You can add, update or delete categories from this section.<br/><br>
+                                <strong>Add Category: </strong> Go to "Categories" section from navigation and click Categories. Then fill in the Add Category form.
+                                <ul>
+                                    <li><b>Category Name: </b> Category name.</li>
+                                    <li><b>Slug : </b> Slug for SEO friendly url. If your category name consists of special characters your slug will not be generated. In this case you should add custom slug.</li>
+                                    <li><b>Description: </b> You can add Description (Meta Tag) for category.</li>
+                                    <li><b>Keywords: </b> You can add Keywords (Meta Tag) for category.</li>
+                                    <li><b>Menu Order: </b> You can order categories with this value.</li>
+                                    <li><b>Show on Menu: </b> You can hide or show category on menu.</li>
+                                </ul>
+
+                                <strong>Update Category: </strong> Go to "Categories" section from navigation and click Categories. On the category list you can make changes
+                                on categories by selecting "Edit" option for each categories.<br><br>
+
+                                <strong>Delete Category: </strong> On the same list you can delete categories by selecting "Delete" option for each categories.
+                                <br><br>
+
+                                <strong>Subcategories: </strong> You can add, update or delete subcategories from this section.<br><br>
+                                <strong>Add Subcategory: </strong> Go to "Categories" section from navigation and click Subcategories. Then fill in the Add Subcategory form.
+                                <ul>
+                                    <li><b>Category Name: </b> Category name.</li>
+                                    <li><b>Category Slug : </b> Slug for SEO friendly url. If your category name consists of special characters your slug will not be generated. In this case you should add custom slug.</li>
+                                    <li><b>Category Description: </b> You can add Description (Meta Tag) for category.</li>
+                                    <li><b>Category Keywords: </b> You can add Keywords (Meta Tag) for category.</li>
+                                    <li><b>Parent Category: </b> You should select a top (parent) category.</li>
+                                </ul>
+
+                                <strong>Update Subcategory: </strong> Go to "Categories" section from navigation and click Subcategories. On the category list you can make changes
+                                on categories by selecting "Edit" option for each categories.<br><br>
+
+                                <strong>Delete Subcategory: </strong> On the same list you can delete categories by selecting "Delete" option for each categories.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="polls" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Polls</h3>
+                                CMS blog has poll feature. You can add unlimited polls and you can manage these polls from this section.<br/><br>
+
+                                <strong>Add Poll: </strong> Go to "Polls" section from navigation and click Add Poll. Then fill in the form.
+                                <ul>
+                                    <li><b>Question: </b> Poll question.</li>
+                                    <li><b>Options: </b> Options for your question.</li>
+                                    <li><b>Status: </b> You can enabled or disabled a poll.</li>
+                                </ul>
+
+                                <strong>Update Poll: </strong> Go to "Polls" section from navigation and click Polls. On the poll list you can make changes
+                                on polls by selecting "Edit" option for each polls.<br><br>
+
+                                <strong>Delete Poll: </strong> On the same list you can delete poll by selecting "Delete" option for each polls.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="gallery" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Gallery</h3>
+                                You can add or delete photos to gallery from this section.<br/>
+                                Before adding new images you should add albums for gallery.<br>
+                                To add a new image, select your image from Add New Image form and then click Add Image button.<br/>
+                                If you want to delete a image from gallery, click the Select an option button and click delete.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="comments" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Comments</h3>
+                                CMS blog has comment approval system. Only approved comments will be published in the site. If you want to disable this system and
+                                publish directly all the comments, you can disable this system from Settings section in the Admin panel.<br><br>
+                                <strong>Pending Comments: </strong> You can see and approve the pending comments from this section.<br><br>
+                                <strong>Approved Comments: </strong> You can see and delete the approved comments from this section.<br><br>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="contact" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Contact Messages</h3>
+                                You can see the messages that users sent from the contact form on the site from this section.<br/>
+                                If you want to delete a message from list, click the Select an option button and click delete.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="newsletter" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Newsletter</h3>
+                                The Newsletter allows you to share some updates and interesting things with the users.<br/>
+                                You can see the all registered emails and you can send an email to these emails from this section.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="ads" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Ad Spaces</h3>
+                                If you want to run ads on the site, you can add your ad codes from this section.<br/>
+                                Because the ad spaces are responsive, you need to enter the code at different metrics for each ad.<br/>
+                                Also you can create your ad codes by uploading banner image and adding ad URL.
+                                <br><br>
+                                Our ad spaces are responsive.
+                                Each ad slot has 3 different sizes.<br><br>
+                                <strong>728x90 Banner: </strong>This ad slot will be shown on screens larger than 1140px.<br>
+                                <strong>468x60 Banner: </strong>This ad slot will be shown on screens larger than 540px and smaller than 1140px.<br>
+                                <strong>234x60 Banner: </strong>This ad slot will be shown on screens smaller than 540px.<br><br>
+                                <strong>Google Adsense Code:</strong> You can add your Google Adsense code from this section. This code will be added to footer of the site and it will be enabled for all pages.
+                                After adding this code, you can add your ad codes to ad spaces.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="users" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Users</h3>
+                                You can manage registered user from this section.<br/><br>
+
+                                <strong>Options: </strong>
+                                <ul>
+                                    <li><b>Change User Role: </b> If you want to change user role you can use "Change User Role" option.</li>
+                                    <li><b>Ban User: </b> You can ban a user or remove ban for a user.</li>
+                                    <li><b>Delete: </b> You can delete a user by selecting delete option.</li>
+                                </ul>
+
+
+                                <p>
+                                    <strong>There are 3 roles in the system:</strong><br><br>
+                                    <strong>Admin:</strong> System administrator.<br><br>
+                                    <strong>Author:</strong> Authors can add, update and delete their posts. Authors can
+                                    only see and process their own posts. If a post added or edited by an author, Admin approval is required.
+                                    If Admin approves, the post will be published.<br><br>
+                                    <strong>User:</strong> User can't access the Admin panel and they can't add posts.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="cache" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Cache System</h3>
+                                You can enable or disable cache system from this section.
+                                <ul>
+                                    <li><b>Refresh Cache Files When Database Changes: </b> If you select yes, the cache files will be refreshed, if there is a change in the database.</li>
+                                    <li><b>Cache Refresh Time (Minute) : </b> Cache files will automatically refresh after this time.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="seo" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Seo Tools</h3>
+                                <p>You can manege your site title, site keywords, site description etc. from this section.</p>
+                                <ul>
+                                    <li><b>Site Title: </b> You site title.</li>
+                                    <li><b>Home Title: </b> Your homepage title.</li>
+                                    <li><b>Site Description: </b> Your site description.</li>
+                                    <li><b>Keywords: </b> Your site keywords.</li>
+                                    <li><b>Google Analytics: </b> You can add your Google Analytics code from here.</li>
+                                </ul>
+                                <h4 class="subtitle">Generate Sitemap</h4>
+                                <p>You can generate a sitemap.xml file from this section.</p>
+                                <p><strong>Update Sitemap:</strong> This option will create a sitemap.xml file on your main directory. You can access this file with "http://domain.com/sitemap.xml" URL.</p>
+                                <p><strong>Download Sitemap:</strong> This option will download sitemap.xml file.</p>
+
+                                <p>You need to create a cron job function to automatically update your sitemap. Read this section to see how you can add a cron job function in your server: <a href="#cron_job">Cron Job</a></p>
+                                <p>This is the URL that you need to run with your cron job function: <strong>http://domain.com/cron/update-sitemap</strong><br>
+                                    <small>**Do not forget to change "domain.com" with your domain name.</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="cron_job" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Cron Job</h3>
+                                <p>A cron job is a Linux command for scheduling a task to be executed sometime in the future. You can set a cron job to update your sitemap, scheduled posts or RSS feeds periodically.</p>
+                                <p>Follow these steps to set up cron job:</p>
+                                <ol>
+                                    <li>
+                                        Go to your cPanel and click cron jobs.<br><br>
+                                        <img src="assets/images/cron1.jpg" alt="" width="650"><br><br>
+                                    </li>
+                                    <li>
+                                        Select the time interval that the cron job will run and your command and create the cron job.<br><br>
+                                        <img src="assets/images/cron2.jpg" alt="" width="450"><br><br>
+                                        <h4 class="subtitle">Commands</h4>
+                                        Update Sitemap:<br>
+                                        <pre><code class="language-apacheconf">wget -O /dev/null http://domain.com/cron/update-sitemap</code></pre>
+                                        Update RSS Feeds:<br>
+                                        <pre><code class="language-apacheconf">wget -O /dev/null http://domain.com/cron/update-feeds</code></pre>
+                                        <p>
+                                            You need to paste these commads to "Command" field and you need to create a different cron job for each task.<br>
+                                            <small>**Do not forget to change "domain.com" with your domain name.</small>
+                                        </p>
+                                    </li>
+                                </ol>
+                                <div class="alert alert-info d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        These commands may not work if you do not have a management panel on your server or if you are using another panel instead of cPanel.
+                                        Cron job can be added in different ways. If this command doesn't work, you need to contact your server provider and ask for help to create a cron job.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="social_login" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Social Login Settings</h3>
+                                You can make your social login settings from this section.<br/><br/>
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        If you want to use social login, you need to enable <strong>SSL</strong> on your site. In other words, all your URLs should be <strong>HTTPS</strong>.
+                                        If SSL is enabled on your site and your server automatically redirects all of your URLs to HTTPS, you can set up your social login settings.
+                                        If your site does not redirect automatically, read the "SSL and .htaccess" section.
+                                    </p>
+                                </div>
+                                <div class="item-sub-content">
+                                    <h4 class="title">Facebook Login</h4>
+                                    <ol>
+                                        <li>Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a> URL.
+                                        </li>
+                                        <li>Click <strong>"Add a New App"</strong> option.<br><br><img src="assets/images/facebook1.png" alt=""><br><br></li>
+                                        <li>Fill the form and click <strong>"Create App ID"</strong> button.<br><br><img src="assets/images/facebook2.png" alt=""><br><br></li>
+                                        <li>Select <strong>"Integrate Facebook Login"</strong> option and click <strong>"Confirm"</strong> button. <br><br><img src="assets/images/facebook3.png" alt=""><br><br></li>
+                                        <li>Click <strong>"Facebook Login > Settings"</strong> link from sidebar menu.<br>Enter redirect URL: <strong>"https://yourdomain.com/facebook-callback"</strong> and click <strong>"Save Changes"</strong> button. <br><br><img src="assets/images/facebook4.png" alt=""><br><br></li>
+                                        <li>Click <strong>"Settings > Basic"</strong> link from sidebar menu.<br> Enter your domain to <strong>"App Domains"</strong> and <strong>"Privacy Policy
+                                            URL"</strong> fields. <br>Select a category for your application and click <strong>"Save Changes"</strong> button.<br><br><img src="assets/images/facebook5.png" alt=""><br><br></li>
+                                        <li>Change your APP Status to <strong>"Live"</strong>.<br>Copy <strong>"App ID"</strong> and <strong>"App Secret"</strong> values from this page and enter these
+                                            values from <strong>"Social Login Settings"</strong> section.<br><br><img src="assets/images/facebook6.png" alt=""></li>
+                                    </ol>
+                                </div>
+
+                                <div class="item-sub-content">
+                                    <h4 class="title">Google Login</h4>
+                                    <ol>
+                                        <li>Go to <a href="https://developers.google.com/identity/sign-in/web/sign-in" target="_blank">https://developers.google.com/identity/sign-in/web/sign-in</a>
+                                            URL.<br></li>
+                                        <li>Click <strong>"Configure a Project"</strong> button.<br><br><img src="assets/images/google1.png" alt=""><br><br></li>
+                                        <li>Select <strong>"+ Create a new project"</strong> option and enter your project name. Click Next.<br><br><img src="assets/images/google2.png" alt=""><br><br></li>
+                                        <li>Enter a display name for your app. Click Next.<br><br><img src="assets/images/google3.png" alt=""><br><br></li>
+                                        <li>Select <strong>"Web server"</strong> option and enter your redirect URL: <strong>"https://yourdomain.com/connect-with-google"</strong>. Click Create.<br><br><img src="assets/images/google4.png" alt=""><br><br></li>
+                                        <li>Copy <strong>"Client ID"</strong> and <strong>"Client Secret"</strong> values and enter these values from <strong>"Social Login Settings"</strong>section. Click Done.<br><br><img src="assets/images/google5.png" alt=""></li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="email_settings" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Email Settings</h3>
+                                You can make your email settings from this section. To send emails, you must create a mail account on your server and you must enter your email account credentials to these fields.
+                                Also, you can use Gmail server to send emails.<br/><br/>
+                                <ul>
+                                    <li><b>Mail Library: </b> CMS blog has 3 different email libraries. You can select one of them to send emails.</li>
+                                    <li><b>Mail Protocol: </b> Your mail protocol (SMTP or Mail). Default SMTP. But some mail servers use Mail protocol. In this case you should set this value to Mail.</li>
+                                    <li><b>Mail Title: </b> Your email title</li>
+                                    <li><b>Mail Host: </b> Your mail server (Exp: mail.example.com)</li>
+                                    <li><b>Mail Port: </b> Your mail port (Default: 587)</li>
+                                    <li><b>Mail Username: </b> Your username (Exp: mail@example.com)</li>
+                                    <li><b>Mail Password: </b> Your password</li>
+                                </ul>
+
+                                <strong>Sending Email with SMTP:</strong><br>
+                                If you want to send emails with SMTP, you can select one of the email libraries from "Mail Library" field. Also, you must select "SMTP" from "Mail Protocol" field.<br><br>
+                                <strong>Sending Email with PHP Mail Function:</strong><br>
+                                If you want to send emails with PHP Mail Function, you must select "CodeIgniter Mail" from "Mail Library" field. Also, you must select "Mail" from "Mail Protocol" field.<br><br>
+
+
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        Some servers may block sending emails with SMTP. In this case, you can try sending emails with the <strong>PHP Mail</strong> function by selecting <strong>"CodeIgniter Mail"</strong> library option and <strong>"Mail"</strong> protocol option.
+                                    </p>
+                                </div>
+                                <br><br>
+                                <h4 class="text-danger">Using Gmail Mail Server</h4>
+                                <br>
+                                <strong>1. Mail Library</strong> <br><br>If you select <strong>"Swift Mailer"</strong> and <strong>"PHP Mailer"</strong>, you need to use these settings:<br><br>
+                                <figure class="highlight">
+                                    Mail Protocol: SMTP<br>
+                                    Mail Host: smtp.gmail.com<br>
+                                    Mail Port: 587<br>
+                                    Mail Username: example@gmail.com (your email)<br>
+                                    Mail Password: your email password
+                                </figure>
+
+                                If you select <strong>"CodeIgniter Mail"</strong>, you should use these settings:<br><br>
+                                <figure class="highlight">
+                                    Mail Protocol: SMTP<br>
+                                    Mail Host: ssl://smtp.googlemail.com<br>
+                                    Mail Port: 465<br>
+                                    Mail Username: example@domain.com (your email)<br>
+                                    Mail Password: your email password
+                                </figure>
+                                &nbsp;&nbsp;<br>
+                                <strong>2. You have to allow less secure devices from this url:</strong> <a href="https://myaccount.google.com/lesssecureapps" target="_blank">https://myaccount.google.com/lesssecureapps</a><br><br>
+                                <strong>3. Go to settings in your Gmail account and click "Forwarding and POP/IMAP" tab.</strong><br>
+                                <br><img src="assets/images/gmail1.png" alt="" width="700" style="border:1px solid #ccc;"><br><br>
+                                <strong>4. Select Enable IMAP option.</strong><br>
+                                <br><img src="assets/images/gmail2.png" alt="" width="700" style="border:1px solid #ccc;"><br><br>
+
+                                After these settings you can use Gmail to send emails.<br><br>
+
+                                <div class="alert alert-danger d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        Some email libraries may not work on some servers. In this case, you need to try other email libraries. If you tried all possible email settings options
+                                        <strong>(including sending email with PHP Mail function)</strong> and if none of them does not work on your server, please contact your hosting service. There could be a problem in
+                                        mail functions in your servers. <strong>Also, please don't forget to check the spam box.</strong>
+                                    </p>
+                                </div>
+                                <div class="alert alert-success d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                    <p class="m-0">
+                                        If you want to send contact messages to your email address, you can select "Yes" for "Send Contact Messages to Email Address" option and add your email to "Contact Messages" form.
+                                    </p>
+                                </div>
+
+                                <br><br>
+
+                                <strong>Email Verification: </strong>You can enable or disable email verification from this section.<br><br>
+                                <strong>Email Options: </strong> You can select email sending options from this section.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="language_settings" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Language Settings</h3>
+                                <strong>Default Language: </strong> You can change your site default language from this form.<br><br>
+
+                                <strong>Add Language: </strong> You can add a new language from this form.<br><br>
+
+                                <strong>Languages: </strong> You can see your languages on this table and you can update or delete a language. Also you can edit all translations in your language. You can access this page with "Edit Phrases" button.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="font_settings" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Font Settings</h3>
+                                You can change your site fonts from this section.<br><br>
+                                <h4 class="subtitle">Add Font</h4>
+                                <p>If you want to add new fonts to your site, you can add them from this section. Follow these steps to add a new font:</p>
+                                <ol>
+                                    <li>Go to Google Fonts: <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com</a></li>
+                                    <li>Click the red plus icon for the font that you want to add.</li>
+                                    <li>You will see "Family Selected" box at the right bottom of the page. Click on this box.</li>
+                                    <li>
+                                        Copy the font URL and enter it to "URL" field.<br>
+                                        E.g: &lt;link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"&gt;
+                                    </li>
+                                    <li>
+                                        Copy the CSS rule and enter it to "Font Family" field.<br>
+                                        E.g: font-family: 'Open Sans', sans-serif;
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="settings" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Settings</h3>
+                                <strong>Genaral Settings:</strong><br/>
+                                <ul>
+                                    <li><b>Timezone: </b> Your timezone. You can see all available timezones from here: <a href="https://www.php.net/manual/en/timezones.php" target="_blank">https://www.php.net/manual/en/timezones.php</a></li>
+                                    <li><b>Application Name: </b> Your site name.</li>
+                                    <li><b>Admin Panel Link: </b> You can change Admin panel link from this field.</li>
+                                    <li><b>Multilingual System: </b> Your can enable or disable multilingual system in your site.</li>
+                                    <li><b>Registration System: </b> Your can enable or disable registration system in your site.</li>
+                                    <li><b>Approve Posts Before Publishing: </b> You can enable this option if you want to approve the authors' posts before they are published.</li>
+                                    <li><b>Comment System: </b> Your can enable or disable comment system in your site.</li>
+                                    <li><b>Comment Approval System: </b> You can enable this option if you want to approve the comments before they are published.</li>
+                                    <li><b>Slider: </b> Your can enable or disable slider in your site.</li>
+                                    <li><b>Emoji Reactions: </b> Your can enable or disable emoji reactions in your site.</li>
+                                    <li><b>Show Post View Count: </b> Your can show or hide post page view count.</li>
+                                    <li><b>RSS: </b> Your can enable or disable RSS in your site.</li>
+                                    <li><b>File Manager: </b> Your can hide or show all uploaded files for users. If you select "Show Only Users Own Files" option, users will see their own uploaded files.</li>
+                                    <li><b>Number of Posts Per Page (Pagination): </b> Your can set post count in each page from this field.</li>
+                                    <li><b>Post Optional Url Button Name: </b> You can set a new name for your optional button.</li>
+                                    <li><b>Footer About Section: </b> About your site. This will be shown in the footer.</li>
+                                    <li><b>Copyright: </b> You can update copyright section from here.</li>
+                                </ul>
+                                <br/>
+                                <strong>Google reCAPTCHA</strong><br/>
+                                CMS blog uses Google reCAPTCHA to protect website from spam and abuse.<br>
+                                <ol>
+                                    <li>Go to this link: <a href="https://www.google.com/recaptcha/intro/v3beta.html">https://www.google.com/recaptcha/intro/v3beta.html</a></li>
+                                    <li>Click Admin Console button.</li>
+                                    <li>Click "+" button at the top menu.</li>
+                                    <li>Select "reCAPTCHA s2" and "I'm not a robot Checkbox" options and generate your API keys.</li>
+                                </ol>
+                                <br/><br/>
+
+                                <strong>Maintenance Mode</strong>
+                                <p>If you want to prepere your site before going live or if you want to close your site to visitors, you can enable this mode. If you enable it, only Admin can access the site.
+                                    Other visitors will see a "Coming Soon!" text.</p>
+                                <br/><br/>
+
+                                <strong>Visual Settings:</strong><br/>
+                                You can change your site color, logo and favicon from this section.
+                                <br/><br/><br/>
+                                <strong>Contact Settings:</strong><br/>
+                                Go to "Settings" section from navigation and click "Contact Settings" tab.
+                                <ul>
+                                    <li><b>Address: </b> Your address</li>
+                                    <li><b>Email Address: </b> Your email address</li>
+                                    <li><b>Phone Number: </b> Your phone number</li>
+                                    <li><b>Contact Text: </b> You can add some text about contact.</li>
+                                </ul>
+                                <br/>
+                                <strong>Social Media Settings:</strong><br> Go to "Settings" section from navigation and click "Social Media Settings" tab.<br/>
+                                You can add your social media accounts from this section.<br><br><br/>
+
+                                <strong>Facebook Comments:</strong><br/>
+                                If you want to use Facebook comment plugin you need to add your plugin code to this section.<br><br>
+                                How to Get This Code:<br>
+                                <ol>
+                                    <li>Go to <a href="https://developers.facebook.com" target="_blank">https://developers.facebook.com</a> and
+                                        click Add a new app.
+                                    </li>
+                                    <li>Click Settings and then click +Add platform.</li>
+                                    <li>Select website and enter your site url and click save changes.</li>
+                                    <li>Then go to <a href="https://developers.facebook.com/docs/plugins/comments/" target="_blank">https://developers.facebook.com/docs/plugins/comments/</a>
+                                        and click Get Code button.
+                                    </li>
+                                    <li>Then copy the code in the <strong>"STEP 2"</strong> and paste to Facebook Comments field.
+                                        <img src="assets/images/facebook_comment.png" alt="" width="750"><br/><br/>
+                                    </li>
+                                </ol>
+                                <br><br>
+                                <strong>Custom CSS Codes</strong>
+                                <p>You can add custom CSS codes from this section. These codes will be added in the &lt;head> tags of your site.</p>
+                                <p>You need to add your CSS codes between &lt;style>&lt;/style&gt; tags. <br>Example:</p>
+                                <pre><code class="language-apacheconf">&lt;style><br>
+body {<br>
+    background-color: #00a65a;<br>
+}<br>
+&lt;/style&gt;
+</code></pre>
+                                <br><br>
+                                <strong>Custom JavaScript Codes</strong>
+                                <p>You can add custom JavaScript codes from this section. These codes will be added to footer of your site.</p>
+                                <p>You need to add your JavaScript codes between &lt;script>&lt;/script&gt; tags. <br>Example:</p>
+                                <pre><code class="language-apacheconf">&lt;script><br>
+alert('Hello!');
+&lt;/script&gt;
+</code></pre>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="author" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Author Panel</h3>
+                                CMS blog is a multi-author system. Every author has their own panel and they can manage their posts. If an author add or update a post, it will need Admin approval.
+                                The post will not be published on the site until Admin approve it. You can disable this approval system from General Settings section.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="password_reset" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Password Reset</h3>
+                                To use the Password Reset section, you need to set your Email Settings. The system will send a password reset link, so it is necessary to enter
+                                a working email server credentials to use email system. You can make read more about email settings from <a href="#email_settings">here</a>.<br><br>
+                                If you have not set up your email settings yet and have forgotten your password, you can reset your password from your database.<br>
+                                To do this, open your database via phpMyAdmin. Click on the <strong>users</strong> table and find your account in this table. Paste the following code to your password column. Make sure there is no space at the beginning or the ending of the code.<br><br>
+                                <figure class="highlight">$2a$08$drmgGpMVGzdyiv7q5LUt3eUne8xh05XKrJPgMKaR3RgRwCQKXZpdu</figure>
+                                After adding this code to your password column, you can login with "<strong>1234</strong>" password.
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+
+                        <div id="update" class="item-content">
+                            <div class="content-inner">
+                                <h3 class="title">Update Guide</h3>
+                                You can find all instructions to update your site from this section. If you don't know your current version, you can check it from the version.txt file in the main directory of your site.
+
+                                <div class="item-sub-content">
+                                    <h4 class="title">Update from v4.0.1 to v4.0.2</h4>
+                                    <ol>
+                                        <li>
+                                            Open your FTP (this is usually the "public_html" folder on your server) and replace these files with the files in the version 4.0.2:
+                                            <figure class="highlight">
+                                                application/models/Settings_model.php<br>
+                                                application/models/Rss_model.php<br>
+                                                application/controllers/Cron_controller.php<br>
+                                                application/views/partials/_nav.php<br>
+                                                application/views/admin/includes/_footer.php<br>
+                                            </figure>
+                                        </li>
+                                    </ol>
+                                </div>
+
+                                <div class="item-sub-content">
+                                    <h4 class="title">Update from v4.0 to v4.0.2</h4>
+                                    <ol>
+                                        <li>
+                                            Open your FTP (this is usually the "public_html" folder on your server) and replace these files with the files in the version 4.0.2:
+                                            <figure class="highlight">
+                                                application/controllers/Cron_controller.php<br><br>
+
+                                                application/models/Upload_model.php<br>
+                                                application/models/Post_admin_model.php<br>
+                                                application/models/Sitemap_model.php<br><br>
+                                                application/models/Settings_model.php<br>
+                                                application/models/Rss_model.php<br>
+
+                                                application/views/partials/_nav.php<br>
+                                                application/views/admin/includes/_header.php<br>
+                                                application/views/admin/includes/_footer.php<br>
+                                                application/views/admin/login.php<br>
+                                                application/views/admin/post/pending_posts.php<br><br>
+
+                                                application/helpers/custom_helper.php<br>
+                                                assets/admin/css/custom.css<br>
+                                            </figure>
+                                        </li>
+                                    </ol>
+                                </div>
+
+                                <div class="item-sub-content">
+                                    <h4 class="title">Update from v3.9 to v4.0.2</h4>
+
+                                    <h6><strong>You can update your site by watching this video.</strong></h6>
+                                    <iframe width="800" height="542" src="https://www.youtube.com/embed/so0sWwOSv4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <br><br>
+                                    <h6><strong>Or you can follow these steps to install the script:</strong></h6>
+                                    <ol>
+                                        <li>
+                                            Follow all steps in the <a href="#update_ftp_files"><strong>Updating FTP Files (Click Here)</strong></a> section.
+                                        </li>
+                                        <li>
+                                            Follow all steps in the <a href="#update_database"><strong>Updating Database (Click Here)</strong></a> section. You can find <strong>update_database.php</strong> file in the <strong>"documentation/updates/Update from v3.9 to v4.0.2"</strong> folder.
+                                        </li>
+                                        <li>
+                                            Clear your browser cache. This is important. If you do not clear, your browser may continue to run old codes.
+                                        </li>
+                                    </ol>
+                                </div>
+
+                                <div class="item-sub-content">
+                                    <h4 class="title">Update from v3.8.x to v4.0.2</h4>
+                                    <ol>
+                                        <li>
+                                            Follow all steps in the <a href="#update_ftp_files"><strong>Updating FTP Files (Click Here)</strong></a> section.
+                                        </li>
+                                        <li>
+                                            Follow all steps in the <a href="#update_database"><strong>Updating Database (Click Here)</strong></a> section. You can find <strong>update_database.php</strong> file in the <strong>"documentation/updates/Update from v3.8.x to v4.0.2"</strong> folder.
+                                        </li>
+                                        <li>
+                                            Clear your browser cache. This is important. If you do not clear, your browser may continue to run old codes.
+                                        </li>
+                                    </ol>
+                                </div>
+
+                                <div class="item-sub-content">
+                                    <h4 class="title">Update from v3.7.x to v4.0.2</h4>
+                                    <ol>
+                                        <li>
+                                            Follow all steps in the <a href="#update_ftp_files"><strong>Updating FTP Files (Click Here)</strong></a> section.
+                                        </li>
+                                        <li>
+                                            Follow all steps in the <a href="#update_database"><strong>Updating Database (Click Here)</strong></a> section. You can find <strong>update_database.php</strong> file in the <strong>"documentation/updates/Update from v3.7.x to v4.0.2"</strong> folder.
+                                        </li>
+                                        <li>
+                                            Clear your browser cache. This is important. If you do not clear, your browser may continue to run old codes.
+                                        </li>
+                                    </ol>
+                                </div>
+
+                                <div id="update_ftp_files" class="item-sub-content">
+                                    <h4 class="title">Updating FTP Files</h4>
+                                    <ol>
+                                        <li>
+                                            Open your cPanel and go to File Manager section.<br><br>
+                                            <img src="assets/images/update/1.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Go to main directory of your site.<br><br>
+                                            <img src="assets/images/update/2.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Create a new folder named "old". You can use another name. It won't make any differences.<br><br>
+                                            <img src="assets/images/update/3.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Move all of your files to this folder.<br><br>
+                                            <img src="assets/images/update/4.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Upload "CMS blog-blog-magazine-script.zip" file to this directory.<br><br>
+                                            <img src="assets/images/update/5.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Rigth click the .zip file and select "Extract" option.<br><br>
+                                            <img src="assets/images/update/6.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Rigth click the .zip file and select "Extract" option.<br><br>
+                                            <img src="assets/images/update/7.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Move all files that in the "CMS blog-v.." folder to main directory.<br><br>
+                                            <img src="assets/images/update/8.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Delete unnecessary files/folders: "documentation", "uploads", "CMS blog-v..", "install" and "CMS blog-blog-magazine-script.zip".<br><br>
+                                            <img src="assets/images/update/9.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Copy <strong>old/uploads</strong> folder to main directory.<br><br>
+                                            <img src="assets/images/update/10.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Open <strong>application/config/database.php</strong> file and enter your database credentials.<br><br>
+                                            <img src="assets/images/update/11.jpg" alt=""><br/><br/>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div id="update_database" class="item-sub-content">
+                                    <h4 class="title">Updating Database</h4>
+                                    <ol>
+                                        <li>
+                                            Upload <strong>update_database.php</strong> file to your main directory.<br><br>
+                                            <img src="assets/images/update/13.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            Open your browser and enter this URL: <strong>yourdomain.com/update_database.php</strong><br><br>
+                                            <img src="assets/images/update/14.jpg" alt=""><br/><br/>
+                                        </li>
+                                        <li>
+                                            When you go to this URL, you will see an update wizard. Enter your license code and Click <strong>Update My Database</strong> button.<br><br>
+                                            <img src="assets/images/update/15.jpg" alt=""><br/><br/>
+                                            <div class="alert alert-success d-flex justify-content-start align-items-center" role="alert"><span class="fa fa-info mr-4"></span>
+                                                <p class="m-0">
+                                                    If you have forgotten your license code, you can get your license code from our support system: <a href="https://codingest.net/" target="_blank">Get License Code</a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            After you see the success message, close this page and delete "update_database.php" file.<br><br>
+                                            <img src="assets/images/update/16.jpg" alt=""><br/><br/>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </main>
+            <!-- page-content" -->
+        </div>
+    </div>
+
+</div>
+<!-- page-wrapper -->
+
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/popper.min.js"></script>
+<script src="assets/prism/prism.js"></script>
+<script>
+    $(document).ready(function () {
+        $('body').scrollspy({target: "#mainScrollspy", offset: 50});
+        $("#mainScrollspy a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

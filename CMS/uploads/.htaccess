@@ -1,0 +1,26 @@
+# Don't list directory contents
+Options -Indexes
+
+# Block double extensions from being uploaded or accessed, including htshells
+<FilesMatch ".*\.([^.]+)\.([^.]+)$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>
+
+# Disable script execution
+<Files ~ "\.(deb|phps|phtml|js|php)$">
+Order Deny,Allow
+Deny from all
+</Files>
+
+<Files ~ "^.*\.([Pp][Hh][Pp])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+
+<FilesMatch "\.(htpasswd|ini|phps|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+

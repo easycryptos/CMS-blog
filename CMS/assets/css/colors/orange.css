@@ -1,0 +1,305 @@
+/*
+
+Template Color CSS File
+
+Color code: #f48b3d
+
+Author: Codingest
+Template Name: Infinite
+*/
+
+/*a tag*/
+a:hover {
+	color: #f48b3d;
+}
+
+a:focus, a:active {
+	color: #f48b3d;
+}
+
+#infinity-outline {
+	stroke: #f48b3d;
+}
+
+.nav-mobile-header {
+	background-color: #f48b3d !important;
+}
+
+/*navigation*/
+.navbar-toggle {
+	background-color: #f48b3d !important;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #f48b3d !important;
+}
+
+.btn-custom {
+	background-color: #f48b3d;
+	border-color: #f48b3d;
+}
+
+.btn-custom:hover {
+	background-color: #de7c33 !important;
+	border-color: #de7c33 !important;
+}
+
+.btn-custom:focus {
+	background-color: #de7c33 !important;
+	border-color: #de7c33 !important;
+}
+
+.btn-custom:active {
+	background-color: #de7c33 !important;
+	border-color: #de7c33 !important;
+}
+
+.btn-error-back {
+	background-color: #f48b3d !important;
+	border-color: #f48b3d !important;
+}
+
+::selection {
+	background: #f48b3d !important;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #f48b3d !important;
+	color: #fff;
+}
+
+.text-category {
+	color: #f48b3d;
+}
+
+/*navbar color style*/
+.navbar-inverse .navbar-nav .active a::after {
+	background-color: #f48b3d;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #f48b3d;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	color: #f48b3d !important;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: #f48b3d;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: #f48b3d;
+}
+
+.home-slider-item .item-info .label-slider-category {
+	background-color: #f48b3d;
+}
+
+.label-post-category {
+	background-color: #f48b3d;
+}
+
+.read-more {
+	color: #f48b3d;
+}
+
+.widget-title .title::after {
+	background-color: #f48b3d;
+}
+
+.ramdom-post-slider .item-info .label-slider-category {
+	background-color: #f48b3d;
+}
+
+.w-tag-list li a:hover {
+	background-color: #f48b3d;
+}
+
+.post-content .post-meta a:hover {
+	color: #f48b3d;
+}
+
+.post-content .post-tags .tag-list li a:hover {
+	border-color: #f48b3d;
+	background-color: #f48b3d;
+}
+
+.related-posts .related-post-title .title::after {
+	background-color: #f48b3d;
+}
+
+.pagination .active a {
+	border: 1px solid #f48b3d !important;
+	background-color: #f48b3d !important;
+	color: #fff !important;
+}
+
+.f-random-list li .title a:hover {
+	color: #f48b3d;
+}
+
+.newsletter button {
+	background: #f48b3d;
+}
+
+.label-slider-category {
+	background-color: #f48b3d;
+}
+
+.random-post-slider .owl-prev:hover .random-arrow-prev {
+	color: #f48b3d;
+}
+
+.random-post-slider .owl-next:hover .random-arrow-next {
+	color: #f48b3d;
+}
+
+.post-detail-slider .owl-prev:hover .post-detail-arrow-prev {
+	color: #f48b3d;
+}
+
+.post-detail-slider .owl-next:hover .post-detail-arrow-next {
+	color: #f48b3d;
+}
+
+.leave-reply .form-control:focus {
+	border-color: #f48b3d;
+}
+
+.page-contact .form-control:focus {
+	border-color: #f48b3d;
+}
+
+.form-input:focus {
+	border-color: #f48b3d;
+}
+
+.link-forget:hover {
+	color: #f48b3d;
+}
+
+.filters .active::after {
+	background: #f48b3d;
+}
+
+.filters .btn:focus:after, .filters .btn:hover:after, .filters .btn:active:after {
+	background: #f48b3d;
+}
+
+.gallery-categories ul li a:hover, .gallery-categories ul li a:focus, .gallery-categories ul li a:active {
+	background-color: #f48b3d !important;
+	border-color: #f48b3d !important;
+	color: #fff !important;
+}
+
+.newsletter .newsletter-button {
+	background-color: #f48b3d;
+	border: 1px solid #f48b3d;
+}
+
+.newsletter .newsletter-button:hover {
+	background-color: #de7c33;
+	border: 1px solid #de7c33;
+}
+
+.switcher-box .open-switcher {
+	background-color: #f48b3d;
+}
+
+.nav-footer li a:hover {
+	color: #f48b3d;
+}
+
+.widget-list li .w-meta a:hover {
+	color: #f48b3d;
+}
+
+.reactions .col-reaction:hover .btn-reaction {
+	background-color: #f48b3d;
+}
+
+.reactions .progress-bar-vertical .progress-bar {
+	background-color: #f48b3d;
+}
+
+.reactions .btn-reaction-voted {
+	background-color: #f48b3d;
+}
+
+.poll .result .progress .progress-bar {
+	background-color: #f48b3d;
+}
+
+.profile-buttons ul li a:hover {
+	color: #f48b3d;
+	border-color: #f48b3d;
+}
+
+.comment-section .nav-tabs .active {
+	border-bottom: 2px solid #f48b3d;
+}
+
+.spinner > div {
+	background-color: #f48b3d;
+}
+
+.cookies-warning a {
+	color: #f48b3d !important;
+}
+
+.post-meta .post-meta-inner a:hover {
+	color: #f48b3d !important;
+}
+
+.custom-checkbox:hover + label:before {
+	border-color: #f48b3d;
+}
+
+.custom-checkbox:checked + label:before {
+	background: #f48b3d;
+	border-color: #f48b3d;
+}
+
+.custom-checkbox input:checked + .checkbox-icon {
+	background-color: #f48b3d;
+	border: 1px solid #f48b3d;
+}
+
+.post-content .post-text a {
+	color: #f48b3d;
+}
+
+.post-files .file button {
+	color: #f48b3d;
+}
+
+@media (max-width: 768px) {
+
+	.pagination .page-previous a {
+		border: 1px solid #f48b3d !important;
+		color: #f48b3d !important;
+		background-color: transparent !important;
+	}
+
+	.pagination .page-next a {
+		border: 1px solid #f48b3d !important;
+		color: #f48b3d !important;
+		background-color: transparent !important;
+	}
+
+	.pagination > li > a, .pagination > li > span {
+		background-color: #f48b3d !important;
+		border: 1px solid #f48b3d !important;
+		color: #fff !important;
+	}
+}

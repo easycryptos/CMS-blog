@@ -1,0 +1,14 @@
+.tox .tox-menubar {
+	background-color: #f8f8f8 !important;
+}
+.tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary {
+	background-color: #f8f8f8 !important;
+}
+.tox .tox-statusbar {
+	background-color: #f8f8f8 !important;
+}
+.tox .tox-statusbar a, .tox .tox-statusbar__path-item, .tox .tox-statusbar__wordcount {
+	color: rgba(34, 47, 62, .3) !important;
+	font-size: 11px !important;
+}
+
