@@ -85,11 +85,37 @@ CMS blog is a multi-purpose blog-magazine script. It has clean, responsive and u
 + Password Hashing
 + Avoiding SQL Injection
 
+## TO DO
+
++ Set compatibility with amazon S.E.S ( simple email service) for smtp bulk email.
++ Set Add confidence level to authors, to automatically approve publications.
++ Integrate cron jobs at admin panel, to set from GUI the cron job to update site map and RSS feed.
++ Auto convert images from .jpg, .png to webp or other light formats.
+
+
 ## Requirements
 + PHP >= 5.6
 + cURL PHP Extension
 + Fileinfo PHP Extension
 + Mbstring PHP Extension
+
+## Installation
+
+XAMMP
+
++ Download the files we'll use only CMS folder extract completely on \xampp\htdocs
++ Open https://127.0.0.1 or localhost and navigate till the folder
++ Follow the steps on the screen
+
+VIRTUAL PRIVATE SERVER
+
++ Set a database with admin user and password.
++ Download the files we'll use only CMS folder extract completely on your server's document root.
++ Set permission for UPLOADS and APPLICATION folder. ( chmod 777)
++ Navigate on yourdomain.com/path-to-the-folder.
++ Follow the steps on the screen.
+
+
 
 ## Demo
 Demo Link : <a href="https://demo.easycryptos.org">Demo</a>
@@ -107,3 +133,15 @@ Password: tL5AqYUA
 User
 Username: user
 Password: 54POju7
+
+
+## Donations
+Any help given is really valuable
+
++ BTC: 1F28VCuSMiNq2Dqi9LzZiR5xeNnypNoYmB
++ ETH: 0xA776BBd865a5795D9Ae46BE24F95F615f21Bb022
++ BTT: TSsgn6JYp67qTMXPhRZo3cpapoyFE5cfgV
++ BNB: bnb1y52m6a6l0uaf4xstx8gjut58p4fqpx673t8q0r
+
+## Contributing
+We are really excited, and will appreciate any help given clone this repo and help us to make better!
